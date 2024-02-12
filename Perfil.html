@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Perfil de Yeraliz</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            color:aliceblue; /* esto es para el color de letra*/
+            text-align: center;
+        }
+        .foto-perfil{
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+
+        }
+    </style>
+    <div class="perfil">
+        <img src="c:\Users\52899\Documents\VS\cute-panda-playing-skateboard-cartoon-icon-illustration-animal-sport-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg"
+        class="foto-perfil">
+        <h1 id="nombre">Yeraa</h1>
+        <h3 id="especialidad">especialidad del cetis</h3>
+        <h2> Gustos personales</h2>
+        <li id="musica">Musica favorita</li>
+        <li id="programas">Programas favoritos</li>
+        <h2>Informacion de contacto</h2>
+        <p id="telefono">telefono</p>
+        <p id="correo">correo</p>
+        <p id="biografia">biografia</p>
+    </div>
+    <script> document.addEventListener('DOMContenetLoaded', function(){
+        document.getElementById('nombre').textContent='Yeraliz Perez';
+        document.getElementById('especialidad').textContent='programacion';
+        document.getElementById('musica').textContent='ac/dc,slash,Twenty one pilots,';
+        document.getElementById('programas').textContent='kick buttouski,gravity falls,gumball,';
+        document.getElementById('telefono').textContent='8999123478';
+        document.getElementById('correo').textContent='yeralizppz@gmail.com';
+        document.getElementById('Biografia').textContent='Soy un panda';
+    })
+    </script>
+</body>
+</html>
